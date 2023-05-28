@@ -1,6 +1,6 @@
 import React from "react";
 import MainPage from "./main/main.js";
-
+import "./App.css";
 const App = () => {
   return (
     <div className="App">
