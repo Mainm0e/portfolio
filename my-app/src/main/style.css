@@ -1,7 +1,14 @@
 .main-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1.3fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas: "main" "project";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduce-box {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }

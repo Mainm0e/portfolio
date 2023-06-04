@@ -7,8 +7,10 @@ const MainPage = () => {
     <>
       <NavBar />
       <div className="main-container">
+        <div className="introduce-box">
         <AboutMe />
         <ProjectList />
+        </div>
       </div>{" "}
     </>
   );

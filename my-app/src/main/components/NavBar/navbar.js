@@ -8,19 +8,15 @@ function Navbar() {
         <ul className="nav-links">
           <li className="nav-item">
             {" "}
-            <a href="#home"> Home </a>{" "}
-          </li>{" "}
-          <li className="nav-item">
-            {" "}
-            <a href="#about"> About </a>{" "}
-          </li>{" "}
-          <li className="nav-item">
-            {" "}
-            <a href="#projects"> Projects </a>{" "}
-          </li>{" "}
-          <li className="nav-item">
-            {" "}
             <a href="#contact"> Contact </a>{" "}
+          </li>{" "}
+          <li className="nav-item">
+            {" "}
+            <a href="https://www.linkedin.com/in/adithep-tamwisai-3b0a7525b/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>{" "}
+          </li>{" "}
+          <li className="nav-item">
+            {" "}
+            <a href="https://github.com/Mainm0e" target="_blank" rel="noopener noreferrer"> Github </a>{" "}
           </li>{" "}
         </ul>{" "}
       </div>{" "}

@@ -1,5 +1,5 @@
 import "./style.css";
-import React, { useRef } from "react";
+import React from "react";
 import ProjectCard from "./ProjectCard/project-card.js";
 
 const ProjectList = () => {
@@ -36,20 +36,19 @@ const ProjectList = () => {
     },
   ];
 
-  const scrollContainerRef = useRef(null);
-
-  const handleScroll = (event) => {
-    event.preventDefault();
-    scrollContainerRef.current.scrollLeft += event.deltaY;
-  };
-
   return (
-    <div className="project-list" onWheel={handleScroll}>
-      <div className="scroll-container" ref={scrollContainerRef}>
+    <div className="project-list" >
+      <div className="slide-container">
         {" "}
         {exampleProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />
-        ))}{" "}
+        ))}
+      </div>{" "}
+      <div className="slide-container">
+        {" "}
+        {exampleProjects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
       </div>{" "}
     </div>
   );
