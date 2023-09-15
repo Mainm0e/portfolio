@@ -1,0 +1,18 @@
+.footer-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: var(--paynes_gray);
+}
+
+.footer-container .footer-cover {
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    justify-content: center;
+    gap: 100px
+}
