@@ -24,3 +24,11 @@ function Navbar() {
 }
 
 export default Navbar;
+
+/* this is for change url without refresh page */
+/*
+const handleNavLinkClick = (event: React.MouseEvent<HTMLAnchorElement>, path: string) => {
+  event.preventDefault(); // Prevent the default behavior of anchor tags
+  window.history.pushState(null, '', path); // Change the URL without a page refresh
+}; 
+ */
