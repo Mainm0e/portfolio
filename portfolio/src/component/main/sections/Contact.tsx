@@ -11,7 +11,7 @@ function Contact() {
         </p>
       </div>
       <div className="contact-form">
-        <form>
+        <form className="form-main">
         <div className="form-top">
           <div className="contact-form-name">
             <label htmlFor="name">Name</label>
@@ -42,9 +42,9 @@ function Contact() {
             />
           </div>
         </div>
-          <div className="contact-form-submit">
-            <input type="submit" value="Send Message" />
-          </div>
+        <div className="contact-form-submit">
+          <input type="submit" value="Send Message" />
+        </div>
         </form>
       </div>
     </div>
